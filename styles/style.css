@@ -133,6 +133,10 @@ body {
     color: white;
 }
 
+.fab:hover {
+    color: rgb(255, 155, 155);
+}
+
 /* Footer */
 footer {
     background-color: rgb(153, 153, 153);
