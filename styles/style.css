@@ -137,6 +137,74 @@ body {
     color: rgb(255, 155, 155);
 }
 
+/* Tujuan */
+.tujuan-wrapper {
+  background-color: #d3d3d3;
+  height: 535px;
+}
+
+.container {
+  padding: 0 100px;
+  width: 1170px;
+  padding-top: 0.8px;
+}
+
+.tujuan {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tujuan h1 {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.tujuans {
+  height: 320px;
+  background-color: rgb(228, 226, 226);
+  width: 32%;
+  display: inline-block;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+  top: 0px;
+}
+
+.tujuans:hover {
+  position: relative;
+  top: -20px;
+}
+
+.tujuan-picture {
+  height: 65%;
+  border-radius: 10px 10px 0 0;
+}
+
+.poto {
+  height: 160px;
+  width: 160px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 30px;
+  left: 98px;
+  border-radius: 50%;
+}
+
+.tj-1 {
+  background-image: url(../img/1.gif);
+}
+
+.tj-2 {
+  background-image: url(../img/2.gif);
+}
+
+.tj-3 {
+  background-image: url(../img/3.gif);
+}
+
 /* Footer */
 footer {
     background-color: rgb(153, 153, 153);
