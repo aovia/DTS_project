@@ -91,6 +91,7 @@ header {
   padding-top: 140px;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .left-content {
@@ -150,7 +151,7 @@ header {
 /* CARD PROFILES */
 .container {
   margin: auto;
-  width: 100%;
+  width: 85%;
 }
 
 .team-head {
@@ -169,15 +170,16 @@ header {
 
 .team {
   height: 500px;
-  background-color: rgb(153, 153, 153);
+  /* background-color: rgb(153, 153, 153); */
   width: 30%;
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 15px;
   margin-bottom: 30px;
   margin-right: 10px;
   cursor: pointer;
   transition: all 0.5s;
-  top: 0px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-bottom: 5px solid goldenrod;
 }
 
 .team:hover {
@@ -187,19 +189,20 @@ header {
 
 .team-picture {
   height: 75%;
-  background-color: rgb(102, 102, 102);
+  /* background-color: rgb(102, 102, 102); */
   border-radius: 10px 10px 0 0;
+  overflow: hidden;
 }
 
 .foto {
-  height: 300px;
-  width: 300px;
+  height: 100%;
+  width: 100%;
   background-size: cover;
   background-position: center;
   position: relative;
-  top: 40px;
-  left: 25px;
-  border-radius: 50%;
+  /* top: 40px;
+  left: 25px; */
+  border-radius: 0 0 20% 0;
   transition: 0.3s;
 }
 
@@ -228,11 +231,12 @@ header {
 .team-info {
   text-align: left;
   padding: 20px 20px;
-  color: white;
+  /* color: white; */
 }
 
 .team-info p {
   margin-bottom: 5px;
+  font-size: 12px;
 }
 
 .teams {
@@ -244,8 +248,9 @@ header {
   background-color: rgb(102, 102, 102);
   padding: 5px 10px;
   border-radius: 5px;
-  font-weight: bold;
-  color: white;
+  /* font-weight: bold; */
+  color: white;font-size: 12px;
+  background-color: goldenrod;
 }
 
 .button-left {
@@ -259,7 +264,23 @@ header {
 
 .fab {
   font-size: 28px;
-  color: white;
+  color: goldenrod;
+}
+
+.fab.fa-instagram-square {
+  color: rgb(223, 86, 52);
+}
+
+.fab.fa-github-square {
+  color: black;
+}
+
+.fab.fa-twitter-square {
+  color: skyblue;
+}
+
+.fab.fa-facebook-square {
+  color: rgb(78, 78, 218);
 }
 
 .fab:hover {
@@ -269,7 +290,7 @@ header {
 /* Tujuan */
 .tujuan-wrapper {
   background-color: #d3d3d3;
-  height: 535px;
+  /* height: 535px; */
 }
 
 /* .container {
