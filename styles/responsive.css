@@ -1,14 +1,6 @@
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1024px) {
   .container-header {
     margin: 0 30px;
-  }
-
-  .team {
-    width: 50%;
-  }
-
-  .left-content {
-    width: 50%;
   }
 
   .container-banner {
@@ -30,14 +22,11 @@
   .right-content img {
     width: 250px;
     transition: 0.5s;
+    margin: auto;
   }
 }
 
-@media all and (max-width: 670px) {
-  .team {
-    width: 100%;
-  }
-
+@media all and (max-width: 768px) {
   .list-menu {
     display: none;
   }
@@ -65,5 +54,54 @@
   .right-content img {
     width: 180px;
     transition: 0.5s;
+  }
+
+  /* PROFILE */
+  .team {
+    width: calc(45% - 10px);
+  }
+
+  .foto {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .left-content, .right-content {
+    width: calc(100% - 10px);
+  }
+
+  .left-content {
+    order: 2;
+  }
+
+  .right-content {
+    order: 1;
+  }
+
+  /* PROFILE */
+  .team {
+    width: calc(100%);
+  }
+
+  /* Tujuan */
+  .tujuan {
+    margin-bottom: 0;
+  }
+
+  .tujuans {
+    width: calc(100%);
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .poto {
+    top: -10px;
   }
 }
